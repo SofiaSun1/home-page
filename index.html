@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>домашняя страница Софьи</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <style>
+        .block1{
+            width: auto;
+            height: 85vh;
+            background-image: url(macarons-g997fcfd39_1920.jpg);
+            text-align: center;
+            color: #dbdadf;
+            font-family: 'Balsamiq Sans', cursive;;
+            margin-top: 77px;
+            background-attachment: fixed;
+        }
+        .block1 h1{
+            font-size: 50px;
+        }
+        .block1 p{
+            font-size: 19px;
+        }
+        body{
+            margin: 0;
+        }
+        .фильтр{
+            background-color: rgba(205, 92, 92, 0.5);
+            height: 60vh;
+            padding-top: 25vh;
+        }
+        .block2 h1{
+            text-align: center;
+        }
+        .block2 figure{
+            width: 20%;
+            text-align: center;
+            min-width: 300px;
+            opacity: 0;
+        }
+        .movi{
+            animation-name: showfig;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;   
+        }
+        @keyframes showfig{
+            from{opacity: 0;}
+            to{opacity: 1;}
+        }
+        .block21{
+            display:flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .block2{
+            padding: 75px;
+        }
+        .contact{
+            background-color: rgb(129, 171, 206);
+            padding: 40px 0;
+        }
+        nav ul{
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav li{
+            padding: 0 30px;
+        }
+        nav a{
+            text-decoration: none;
+            color: bisque;
+            padding: 10px;
+        }
+        nav{
+            padding: 30px;
+            position: fixed;
+            top: 0;
+            background-color: lightcoral;
+            width: 100vw;
+            z-index: 10;
+        }
+        a:hover{
+            background-color: midnightblue;
+        }
+        .contact iframe{
+            margin-right: 60vw;
+            transition: all 2s;
+        }
+        .contact .txt{
+            margin-left: 50vw;
+            transition: all 2s;
+            width: 400px;
+        }
+        .show{
+            padding: 40px;
+        }
+        .slider{
+            width: 50vw;
+            border: 2px solid red;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .slider img{
+            width: 50vw;
+        }
+        .imgs{
+            width: 100vw;
+            display: flex;
+            animation-name: start;
+            animation-iteration-count: infinite;
+            animation-duration: 6s;
+            animation-direction: alternate;
+        }
+        @keyframes start{
+            from{
+                transform: translateX(-50vw);
+            }
+            to{
+                transform: rotateX(0);
+            }
+        }
+        .scratch{
+            padding: 40px;
+            text-align: center;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body onscroll="paral()">
+    <!-- https://132237.lp.tobiz.net/?v=181850&show_install_panel=true -->
+    <nav>
+        <ul>
+            <li><a href="#gl">Home</a></li>
+            <li><a href="#dost">Достижения</a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li><a href="#slayder">Слайдер</a></li>
+            <li><a href="#scratch">Скретч</a></li>
+        </ul>
+    </nav>
+    <div class="block1" id="gl">
+        
+        <div class="фильтр">
+            <h1>страница Софьи</h1>
+            <p>
+                страница Софьи. Здесь можно получить небольшую информацию
+            </p>
+        </div>
+    </div>
+    <div class="block2" id="dost">
+      <h1>мои достижения</h1>
+      <div class="block21">
+        <figure>
+            <img src="book_learning_notebook_reading_study_icon_127253.png" alt="">
+            <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Quidem aperiam molestias earum, eveniet sit unde? Nemo excepturi nesciunt perspiciatis praesentium?
+                  Modi recusandae neque asperiores fuga ullam dolor voluptates corporis cupiditate.</figcaption>
+        </figure>
+        <figure>
+            <img src="color_palette_brush_paint_icon_193916.png" alt="">
+            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Suscipit magnam ipsam dolorem repellat, optio eaque incidunt maiores ex labore veniam aut dolorum facere asperiores inventore, quo debitis vitae minima.
+                  Impedit.</figcaption>
+        </figure>
+        <figure>
+            <img src="471mouse_100455.png" alt="">
+            <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Fuga molestiae atque, consequuntur provident quisquam dolorum harum, esse enim laboriosam rerum eos debitis animi porro.
+                  Nobis explicabo consequuntur magni incidunt? Iusto.</figcaption>
+        </figure>
+      </div>
+      <div class="block21">
+          <figure>
+              <img src="coding_computer_pc_screen_code_icon_193925.png" alt="">
+              <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Tempora amet tempore non totam et aperiam? Suscipit eaque fugit voluptates accusamus, facere et,
+                    earum minima rerum deserunt eveniet reiciendis corporis. Dolore.</figcaption>
+          </figure>
+          <figure>
+            <img src="feedback_rating_like_bookmark_ui_rate_favourite_favorite_star_icon_210796.png" alt="">
+            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ex, praesentium officia nemo tempora omnis, sit voluptatum excepturi ea perferendis, sunt veniam aliquid? Quo nisi voluptate,
+                  velit illo rerum assumenda explicabo.</figcaption>
+        </figure>
+        <figure>
+            <img src="cherries-g31a79e5d5_640.png" alt="" style="height: 128px">
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Eaque quae aspernatur rerum ratione facilis ea qui libero magnam,
+                  voluptas aliquid incidunt asperiores molestias iusto ipsa? Nobis, at nam! Tenetur, libero.</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+       <h1 style="text-align: center;">контактная информация</h1>
+       <div style="display: flex; justify-content: space-around; align-items: flex-start;">
+       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad760ca17e5451bf18de57bd97a5af4c963ee6ea712e16a366fd6936c3bf1d06b&amp;source=constructor" width="753" height="477" frameborder="0"></iframe>
+       <div class="txt">
+           <p>город: Уфа</p>
+           <p>номер: 88005553535</p>
+           <p>эл. почта: sluchainaya.pochta@mail.ru</p>
+           <p>
+           <img src="Instagram_icon-icons.com_66804.png" alt="">
+           <img src="1485482214-facebook_78681.png" alt="">
+           <img src="Twitter_icon-icons.com_66803.png" alt="">
+           </p>
+       </div>
+       </div>
+    </div>
+    <div class="show" id="slayder">
+        <div class="slider">
+            <div class="imgs">
+               <img src="snow-g581848ef7_1920.jpg" alt="">
+               <img src="raspberries-ge141deadd_1920.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="scratch" id="scratch">
+    <iframe src="https://scratch.mit.edu/projects/658344295/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+    <div class="tamagotchi">
+    <iframe src="https://sofiasun1.github.io/tamagotchi/" allowtransparency="true" style="width: 100%; height: 800px;" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+    <footer style="height: 30vh;background-color: rgb(61, 61, 61); display: flex;">
+       <p style="margin: auto; color: rgb(97, 148, 148);"> &copy; Софья, 2022 </p>
+    </footer>
+    <script>
+        function paral(){
+            if (document.querySelector(".block2").getBoundingClientRect().top<500) {
+                document.querySelectorAll(".block2 figure")[0].classList.add("movi")
+                document.querySelectorAll(".block2 figure")[1].classList.add("movi")
+                document.querySelectorAll(".block2 figure")[2].classList.add("movi")
+                document.querySelectorAll(".block2 figure")[3].classList.add("movi")
+                document.querySelectorAll(".block2 figure")[4].classList.add("movi")
+                document.querySelectorAll(".block2 figure")[5].classList.add("movi")
+                }
+            if (document.querySelector(".contact").getBoundingClientRect().top<500) {
+                document.querySelector(".contact iframe").style.marginRight="0"
+                document.querySelector(".contact .txt").style.marginLeft="0"
+            }
+        }
+    </script>
+</body>
+</html>
